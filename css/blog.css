@@ -1,0 +1,328 @@
+/* main section */
+
+.blog-main {
+    position: relative;
+    border-radius: 6px;
+}
+
+.blog-main article {
+    position: absolute;
+    background-image: linear-gradient(180deg, #00000000 0%, #00000091 100%);
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.blog-content {
+    position: absolute;
+    bottom: 0px;
+    padding: 0px 16px 20px 16px;
+}
+
+.blog-content .blog-title {
+    line-height: 32px;
+    font-size: 32px;
+    text-align: left;
+}
+
+.blog-content .blog-date {
+    line-height: 19px;
+    font-size: 12px;
+    text-align: left;
+    padding-top: 7px;
+}
+
+.blog-sub {
+    position: relative;
+    border-radius: 6px;
+}
+
+.blog-sub article {
+    position: absolute;
+    background-image: linear-gradient(180deg, #00000000 0%, #00000091 100%);
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.blog-content-sub {
+    position: absolute;
+    bottom: 0px;
+    padding: 11px;
+}
+
+.blog-content-sub .blog-title-sub {
+    line-height: 19px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.blog-content-sub .blog-date-sub {
+    line-height: 19px;
+    font-size: 12px;
+    text-align: left;
+    padding-top: 7px;
+}
+
+
+/* end main section */
+
+
+/* sales experience section */
+
+#sale-experience article {
+    max-height: 176px;
+    overflow: hidden;
+}
+
+
+/* tittle */
+
+.article-image img {
+    border-radius: 6px;
+}
+
+.title-sale-exp,
+.title-marketing {
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #302f2f;
+    opacity: 0.92;
+}
+
+
+/* list article */
+
+.title-article-exp {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #302f2f;
+}
+
+.description-article-exp {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #6e6e6e;
+    max-height: 45px;
+}
+
+.author-exp {
+    margin-right: 49px;
+}
+
+.info-article-exp .author-exp {
+    font-weight: 500;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #111111;
+}
+
+.info-article-exp .author-exp i {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #ffffff;
+    padding-top: 4px;
+    border-radius: 50%;
+}
+
+.info-article-exp .date-exp {
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #6E6E6E;
+}
+
+
+/* end sales experience */
+
+
+/* button read more */
+
+.btn-read-more {
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: -0.36px;
+    color: #FFFFFF;
+    background-color: #FDAB3A;
+    border-radius: 5px;
+    padding: 12.33px 75.81px 13.67px 78.19px;
+}
+
+.btn-read-more:hover,
+.btn-read-more:focus {
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: -0.36px;
+    color: #FFFFFF;
+    background-color: #FDAB3A;
+    border-radius: 5px;
+    padding: 12.33px 75.81px 13.67px 78.19px;
+}
+
+
+/* ads section */
+
+.ads-image-vertical img,
+.ads-image-horizontal img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.ads-image-horizontal img {
+    max-height: 239px;
+}
+
+.ads-section {
+    margin: 30px 0px;
+}
+
+
+/* end ads section */
+
+
+/* marketing section */
+
+.article-marketing article {
+    max-height: 310px;
+    overflow: hidden;
+}
+
+.article-marketing .article-image img {
+    max-height: 229px;
+    object-fit: cover;
+}
+
+.article-marketing .title-article-marketing {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #302f2f;
+}
+
+
+/* end marketing section */
+
+
+/* sologan */
+
+.sologan {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #FDAB3A;
+    padding: 0px 170px;
+}
+
+
+/* end sologan */
+
+
+/* category */
+
+.label-category {
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #111111;
+}
+
+.intro-category {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #302F2F;
+}
+
+
+/* list category */
+
+.category-item {
+    height: 52px;
+    padding: 10px 10px 10px 13px;
+}
+
+.category-name {
+    font-size: 16px;
+}
+
+
+/* end category */
+
+
+/* welcome-response */
+
+.welcome-response {
+    background-color: #e2c830;
+    padding: 43px 16px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 26px;
+}
+
+
+/* end welcome-response */
+
+
+/* @media */
+
+@media only screen and (max-width: 992px) {
+    .blog-main article,
+    .blog-sub article {
+        position: static;
+        background-image: none;
+        height: 100%;
+        width: 100%;
+    }
+    .blog-content-sub,
+    .blog-content {
+        position: static;
+        padding: 0px;
+        padding-top: 12px;
+    }
+    .blog-content-sub .blog-title-sub,
+    .blog-content .blog-title {
+        line-height: 22px;
+        font-size: 16px;
+        color: #302F2F;
+        font-weight: 500;
+    }
+    .title-article-exp {
+        line-height: 22px;
+        font-size: 16px;
+    }
+    #sale-experience article {
+        max-height: unset;
+    }
+    .article-image img {
+        max-height: 229px;
+        object-fit: cover;
+    }
+    .sologan {
+        font-size: 16px;
+        padding: 0px;
+    }
+    .category-item {
+        width: 50% !important;
+        height: 80px;
+        padding: 10px 10px 10px 13px;
+        text-align: center;
+    }
+    .category-name {
+        font-size: 14px;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

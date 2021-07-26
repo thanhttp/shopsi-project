@@ -1,0 +1,59 @@
+/* header css */
+
+header {
+    margin-bottom: 80px;
+}
+
+.icon-search {
+    line-height: 2;
+    font-size: 22px;
+}
+
+
+/* list menu */
+
+.home-list-menu {
+    background-color: #ffffff;
+}
+
+.home-list-menu li {
+    margin-left: 40px;
+}
+
+.home-list-menu li a {
+    font-size: 14px;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #302f2f;
+}
+
+.home-side-bar {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 6px #00000014;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+}
+
+
+/* end list menu */
+
+.home-text {
+    font-size: 22px;
+    font-weight: 600;
+    vertical-align: baseline;
+}
+
+.btn-side-bar {
+    padding-top: 11px;
+}
+
+
+/* end header css */
+
+@media only screen and (max-width: 992px) {
+    .home-list-menu li {
+        margin-left: 10px;
+    }
+}

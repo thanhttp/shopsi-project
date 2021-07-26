@@ -1,0 +1,44 @@
+/* footer */
+
+.page-footer {
+    background: #E2E2E2;
+    margin-top: 36px;
+    padding-top: 88px;
+}
+
+.home-text-footer {
+    color: #111111;
+    font-size: 34px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.introduce,
+.contact-info {
+    margin-top: 19px;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.copy-right-footer {
+    background-color: #F2F2F2;
+    margin-top: 60px;
+    padding: 26px 0px;
+}
+
+.cc-right {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 26px;
+    color: #302F2F;
+}
+
+.certificate-info {
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: -0.15px;
+    color: #6E6E6E;
+}
+
+
+/* end footer */
