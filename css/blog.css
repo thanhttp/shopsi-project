@@ -117,6 +117,10 @@
     margin-right: 49px;
 }
 
+.info-article-exp {
+    margin-top: 14px;
+}
+
 .info-article-exp .author-exp {
     font-weight: 500;
     text-align: left;
@@ -276,7 +280,7 @@
 
 /* @media */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991.98px) {
     .blog-main article,
     .blog-sub article {
         position: static;
