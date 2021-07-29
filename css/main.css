@@ -26,3 +26,38 @@ ul {
 .text-main {
     color: #302f2f;
 }
+
+.breadcrumb-item {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.breadcrumb-item a {
+    color: #FDAB3A;
+}
+
+.breadcrumb-item.active {
+    font-weight: 500;
+    font-size: 14px;
+    color: #302F2F;
+}
+
+hr {
+    background-color: #E2E2E2;
+}
+
+.nav-item .nav-link.active {
+    color: #FDAB3A !important;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+.w-20 {
+    width: 20% !important;
+}
+
+.w-80 {
+    width: 80% !important;
+}
