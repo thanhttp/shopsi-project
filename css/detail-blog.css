@@ -1,0 +1,99 @@
+.blog-intro-img img {
+    object-fit: contain;
+    max-height: 490px;
+    border-radius: 6px;
+}
+
+.detail-blog-title {
+    font-weight: 500;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0px;
+    color: #302F2F;
+    margin-top: 20px;
+}
+
+.detail-blog-description {
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #302F2F;
+}
+
+.quick-view-btn a {
+    background-color: #FFE9C9;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #302F2F;
+}
+
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+    z-index: 1;
+    color: #302F2F;
+    text-decoration: none;
+    background-color: #FFE9C9;
+}
+
+.list-quick-view {
+    background-color: #F2F2F2;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.quick-view-item {
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #302F2F;
+    line-height: 19px;
+    margin-bottom: 18px;
+}
+
+.detail-blog-item {
+    margin-top: 18px;
+}
+
+.detail-blog-item label {
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #302F2F;
+}
+
+.reference-source-panel a {
+    background-color: #D1E8FF;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #302F2F;
+}
+
+a.list-group-item-action:focus,
+a.list-group-item-action:hover {
+    z-index: 1;
+    color: #302F2F;
+    text-decoration: none;
+    background-color: #D1E8FF;
+}
+
+.list-reference-source-panel {
+    background-color: #F2F2F2;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.reference-source-panel-item {
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    margin-bottom: 18px;
+}
+
+.reference-source-panel-item a {
+    color: #0D76E0;
+}
